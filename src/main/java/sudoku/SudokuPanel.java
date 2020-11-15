@@ -25,6 +25,7 @@ public class SudokuPanel extends JPanel {
 	private int usedHeight;
 	private int fontSize;
 	
+	
 	public SudokuPanel() {
 		this.setPreferredSize(new Dimension(540,450));
 		this.addMouseListener(new SudokuPanelMouseAdapter());
