@@ -22,7 +22,7 @@ public class SudokuPuzzle {
 		initializeBoard();
 		initializeMutableSlots();
 	}
-	
+
 	public SudokuPuzzle(SudokuPuzzle puzzle) {
 		this.ROWS = puzzle.ROWS;
 		this.COLUMNS = puzzle.COLUMNS;
