@@ -103,5 +103,6 @@ public class SudokuFrame extends JFrame {
 				frame.setVisible(true);
 			}
 		});
+		
 	}
 }
