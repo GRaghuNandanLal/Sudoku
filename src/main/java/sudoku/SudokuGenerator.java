@@ -89,7 +89,7 @@ public class SudokuGenerator {
 				return backtrackSudokuSolver(r + 1,c,puzzle);
 			}
 		}
-		
+
 		//undo move
 		puzzle.makeSlotEmpty(r, c);
 		
