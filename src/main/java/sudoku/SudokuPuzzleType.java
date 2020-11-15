@@ -29,7 +29,7 @@ public enum SudokuPuzzleType {
 	public int getColumns() {
 		return columns;
 	}
-	
+
 	public int getBoxWidth() {
 		return boxWidth;
 	}
